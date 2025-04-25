@@ -12,7 +12,13 @@
 
 ## Getting Started
 
-First, run the development server:
+First, seed the sqlite database:
+
+```bash
+node seed.js
+```
+
+Second, run the development server:
 
 ```bash
 npm run dev

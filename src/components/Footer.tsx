@@ -32,7 +32,7 @@ export default function Footer() {
                     </Grid>
 
                     <Typography variant="body2" sx={{ mt: 3 }}>
-                        &copy; 2025 My Website. All rights reserved.
+                        &copy; 2025 My Blog. All rights reserved.
                     </Typography>
                 </Container>
             </Box>

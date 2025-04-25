@@ -18,18 +18,30 @@ export default function Header() {
                             justifyContent: "space-between",
                         }}
                     >
-                        {/* Logo oder Titel */}
-                        <Typography variant="h6">My Website</Typography>
+                        <Typography variant="h6">My Blog</Typography>
 
-                        {/* Navigationsbuttons */}
                         <div>
-                            <Button color="inherit" sx={{ marginRight: 2 }}>
+                            <Button
+                                color="inherit"
+                                href="/"
+                                sx={{ marginRight: 2 }}
+                            >
                                 Home
                             </Button>
-                            <Button color="inherit" sx={{ marginRight: 2 }}>
-                                About
+                            <Button
+                                color="inherit"
+                                href="/items"
+                                sx={{ marginRight: 2 }}
+                            >
+                                Items
                             </Button>
-                            <Button color="inherit">Contact</Button>
+                            <Button
+                                color="inherit"
+                                sx={{ marginRight: 2 }}
+                                href="/items/manage"
+                            >
+                                Verwalten
+                            </Button>
                         </div>
                     </Container>
                 </Toolbar>
