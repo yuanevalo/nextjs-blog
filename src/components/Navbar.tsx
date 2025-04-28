@@ -16,6 +16,7 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import { motion } from "motion/react";
 import { useState } from "react";
+import ModeSwitch from "./ModeSwitch";
 
 interface Items {
     name: string;
@@ -55,7 +56,9 @@ export default function Navbar() {
                 >
                     <MenuIcon />
                 </IconButton>
-                <Typography className="grow-1 text-5xl">My Blog</Typography>
+                <Typography variant="h5" className="grow-1">
+                    My Blog
+                </Typography>
                 <Box sx={{ display: { xs: "none", sm: "block" } }}>
                     {items.map((item) => (
                         <Button key={item.name} href={item.href}>
